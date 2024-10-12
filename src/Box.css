@@ -1,0 +1,9 @@
+.box {
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    100px
+  ); /* 5 sütun ve her biri 50px genişlik */
+  grid-template-rows: repeat(5, 100px); /* 5 satır ve her biri 50px yükseklik */
+  gap: 1px;
+}
